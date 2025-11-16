@@ -1,6 +1,6 @@
 # ======================== 1. 빌드 단계 (Build Stage) ========================
 # openjdk:21-jdk-slim 이미지를 'builder'라는 이름으로 사용합니다.
-FROM openjdk:21-jdk-bullseye AS builder 
+FROM openjdk:21-jdk AS builder 
 
 # Docker 컨테이너 내부의 작업 디렉토리를 /app으로 설정합니다.
 WORKDIR /app
@@ -18,7 +18,7 @@ RUN ./gradlew clean bootJar
 
 # ======================== 2. 실행 단계 (Runtime Stage) ========================
 # 실행을 위해 openjdk:21-jre-slim(Java Runtime Environment, 더 가벼움) 이미지를 사용합니다.
-FROM openjdk:21-jre-bullseye
+FROM openjdk:21-jre
 
 # Docker 컨테이너 내부의 작업 디렉토리를 /app으로 설정합니다.
 WORKDIR /app
