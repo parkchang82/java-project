@@ -82,9 +82,9 @@
           <tags>persp.editorOnboardingCommand:Show Key Assist$$$Ctrl+Shift+L</tags>
           <tags>persp.editorOnboardingCommand:New$$$Ctrl+N</tags>
           <tags>persp.editorOnboardingCommand:Open Type$$$Ctrl+Shift+T</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_ly-l5K2VEfCega3kqO-uCQ" selectedElement="_ly-l8a2VEfCega3kqO-uCQ" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ly-l5K2VEfCega3kqO-uCQ" selectedElement="_ly-l5a2VEfCega3kqO-uCQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_ly-l5a2VEfCega3kqO-uCQ" containerData="2759" selectedElement="_ly-l5q2VEfCega3kqO-uCQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_ly-l5q2VEfCega3kqO-uCQ" containerData="6000" selectedElement="_ly-l562VEfCega3kqO-uCQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_ly-l5q2VEfCega3kqO-uCQ" containerData="6000" selectedElement="_58y1AK2vEfCkPbv4BGQD8g">
                 <children xsi:type="basic:PartStack" xmi:id="_ly-l562VEfCega3kqO-uCQ" elementId="left" containerData="6600" selectedElement="_ly-l6K2VEfCega3kqO-uCQ">
                   <tags>org.eclipse.e4.primaryNavigationStack</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_ly-l6K2VEfCega3kqO-uCQ" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_ly4fQK2VEfCega3kqO-uCQ" closeable="true">
@@ -279,7 +279,7 @@
           <tags>org.eclipse.ui.genericeditor.GenericEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_by6CkK2qEfCkPbv4BGQD8g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="build.gradle" iconURI="platform:/plugin/org.eclipse.buildship.ui/icons/full/obj16/gradle_file.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; partName=&quot;build.gradle&quot; title=&quot;build.gradle&quot; tooltip=&quot;CodeJavaApp/build.gradle&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CodeJavaApp/build.gradle&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1544&quot; selectionTopPixel=&quot;9&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; partName=&quot;build.gradle&quot; title=&quot;build.gradle&quot; tooltip=&quot;CodeJavaApp/build.gradle&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CodeJavaApp/build.gradle&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1590&quot; selectionTopPixel=&quot;24&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.buildship.ui.gradlebuildscripteditor</tags>
@@ -655,7 +655,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lqPgoK2VEfCega3kqO-uCQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ik8fcMOVEfCoNOlwQUUNYA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_lcqYCK2VEfCega3kqO-uCQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_U6Te8MOWEfCn-o3HeHc8iA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_lcqYCK2VEfCega3kqO-uCQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lqPgoa2VEfCega3kqO-uCQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -663,8 +663,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lqPgo62VEfCega3kqO-uCQ" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ik9tksOVEfCoNOlwQUUNYA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" command="_lcoiwa2VEfCega3kqO-uCQ"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ik-UoMOVEfCoNOlwQUUNYA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_lcpJs62VEfCega3kqO-uCQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_U6UGBcOWEfCn-o3HeHc8iA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" command="_lcoiwa2VEfCega3kqO-uCQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_U6UGBsOWEfCn-o3HeHc8iA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_lcpJs62VEfCega3kqO-uCQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lqPgpK2VEfCega3kqO-uCQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -688,7 +688,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lqQHsK2VEfCega3kqO-uCQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_ik-7sMOVEfCoNOlwQUUNYA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" type="Check" command="_lcqXva2VEfCega3kqO-uCQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_U6UtFMOWEfCn-o3HeHc8iA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" type="Check" command="_lcqXva2VEfCega3kqO-uCQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lqQHsa2VEfCega3kqO-uCQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2883,7 +2883,7 @@
   <addons xmi:id="_lcIzPq2VEfCega3kqO-uCQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_lcIzP62VEfCega3kqO-uCQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_lcTLQK2VEfCega3kqO-uCQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_ibeaYcOVEfCoNOlwQUUNYA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_lclfIK2VEfCega3kqO-uCQ" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_lclfIa2VEfCega3kqO-uCQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
