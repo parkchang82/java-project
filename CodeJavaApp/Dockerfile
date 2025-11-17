@@ -18,7 +18,7 @@ RUN ./gradlew clean bootJar
 
 # ======================== 2. 실행 단계 (Runtime Stage) ========================
 # 실행을 위해 openjdk:21-jre-slim(Java Runtime Environment, 더 가벼움) 이미지를 사용합니다.
-FROM openjdk:21-jre
+FROM eclipse-temurin:21-jre-alpine
 
 # Docker 컨테이너 내부의 작업 디렉토리를 /app으로 설정합니다.
 WORKDIR /app
