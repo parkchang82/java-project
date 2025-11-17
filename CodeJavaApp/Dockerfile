@@ -1,3 +1,4 @@
+RUN npm run build
 # ======================== 1. 빌드 단계 (Build Stage) ========================
 # openjdk:21-jdk-slim 이미지를 'builder'라는 이름으로 사용합니다.
 FROM eclipse-temurin:21-jdk-alpine AS builder 
