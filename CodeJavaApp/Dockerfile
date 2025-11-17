@@ -1,5 +1,5 @@
 # 빌드 스테이지 (Spring Boot Jar 생성)
-FROM gradle:8.4.0-jdk21-alpine AS builder
+FROM eclipse-temurin:21-jdk-alpine AS builder
 
 # 작업 디렉토리를 Spring 프로젝트 폴더로 설정
 WORKDIR /CodeJavaApp
@@ -18,7 +18,7 @@ RUN chmod +x ./gradlew
 RUN ./gradlew clean build -x test
 
 # 실행 스테이지 (최종 이미지)
-FROM openjdk:21-jre-slim
+FROM eclipse-temurin:21-jre-alpine
 
 # Jar 파일을 찾을 경로 설정
 WORKDIR /app
