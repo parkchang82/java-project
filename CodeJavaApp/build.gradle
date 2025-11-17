@@ -45,4 +45,5 @@ tasks.named('test') {
 tasks.named('bootJar') {
     // Gradle에게 'CodeJavaAppApplication'을 실행 시작점으로 명확히 지정
     mainClass = 'com.example.demo.CodeJavaAppApplication' 
+}
 
