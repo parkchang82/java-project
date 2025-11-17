@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080' // 백엔드 주소 확인
+    baseURL: 'https://java-project-4hxi.onrender.com' // 백엔드 주소 확인
 });
 
 // 모든 요청 전에 실행되는 인터셉터
