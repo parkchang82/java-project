@@ -14,6 +14,6 @@ public class WebController {
     @GetMapping(value = {"/", "/{path:[^\\.]*}", "/{path:home|about|posts|login|signup}"})
     public String index() {
         // "index"를 반환하면 Spring Boot의 뷰 리졸버가 정적 리소스 경로(static/index.html)에서 파일을 찾습니다.
-        return "index";
+        return "build/index";
     }
 }
