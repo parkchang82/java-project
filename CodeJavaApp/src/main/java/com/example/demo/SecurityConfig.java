@@ -77,7 +77,9 @@ public class SecurityConfig {
             // 접근 권한 설정 (⭐️ 이 부분이 수정되었습니다 ⭐️)
             .authorizeHttpRequests(authz -> authz
                 // '/api/login', '/api/signup', '/api/auth/logout' 경로는 누구나 접근 가능
-                .requestMatchers("/api/login", "/api/signup", "/api/auth/logout").permitAll()
+            	.requestMatchers("/", "/build/**").permitAll()
+            	
+            	.requestMatchers("/api/login", "/api/signup", "/api/auth/logout").permitAll()
                 
                 // 💡 [추가] /posts/** (PostController) 경로는 누구나 접근 가능
                 .requestMatchers("/posts/**").permitAll() 
