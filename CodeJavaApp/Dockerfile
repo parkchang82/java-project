@@ -29,7 +29,7 @@ COPY --from=builder /CodeJavaApp/build/libs/*.jar CodeJavaApp.jar
 # ----- 프론트엔드 빌드 및 통합 스테이지 -----
 # Dockerfile이 CodeJavaApp 안에 있으므로, 프론트엔드 폴더는 상위 폴더(..)에 있습니다.
 # 프론트엔드 소스 복사 (상위 디렉토리 사용)
-COPY ../study-group-frontend-main /app/frontend
+COPY ./study-group-frontend-main /app/frontend
 
 # Node.js 설치 (프론트엔드 빌드를 위해)
 RUN apt-get update && apt-get install -y nodejs npm
